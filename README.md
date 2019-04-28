@@ -2,13 +2,11 @@
 
 # Java Tutorial For Beginners
 
-Welcome to this book on **"Learning Java In 150 Steps"**. 
+Welcome to this book on **"Learn Everything About Core Java"**. 
 
-I am **Ranga Karanam**, and I have more than two decades of programming experience. 
+I am **Amit Kumar Sah**, and I have two years of programming experience. 
 
-I love Programming. One of the aims I had when I started ```in28minutes``` was to make learning programming easy. Thanks for helping us provide amazing courses to 300,000 learners across the world.
-
-At **In28Minutes**, we ask ourselves one question every day: "How do we create awesome learning experiences?" 
+I love Programming. One of the aims I had when I started Writingthis was to make learning programming easy. 
 
 In this book, you will learn to write **object** **oriented** code with Java. You will be exposed to a lot of examples, exercises and tips. We will take up a lot of examples, and try and see how to write code for those in Java. 
 
@@ -46,7 +44,7 @@ The popular answer was
 Put yourselves in the shoes of a beginner and look at this typical ```Java Hello World Example```.
 
 ```java
-package com.in28minutes.firstjavaproject; 
+package com.amitsa.firstjavaproject; 
 public class HelloWorld 
 {   
      public static void main(String[] args) {           
@@ -70,7 +68,7 @@ Why?
 
 This is the approach we took to writing this guide and develop our introductory programming courses for Java and Python. 
 
-> Do you know? The first 3 hours of our Java Course is available [here](https://courses.in28minutes.com/p/java-tutorial-for-beginner-in-250-steps).
+> Do you know? The first 3 hours of our Java Course is available [here](https://courses.amitsa.com/p/java-tutorial-for-beginner-in-250-steps).
 
 
 
@@ -139,7 +137,7 @@ How about starting off exploring Java? Are you game?
 
 ##### Snippet-1: Check the Java programming environment
 
-You can use [https://tryjshell.org/](https://tryjshell.org/) to run the code for the first 25 steps. Or you can [Install Java 12+](https://github.com/in28minutes/java-a-course-for-beginners/blob/master/00-02-java-eclipse-installation.md#installing-java). Here's the [troubleshooting section](https://github.com/in28minutes/java-a-course-for-beginners/blob/master/00-02-java-eclipse-installation.md#troubleshooting) if you face problems.
+You can use [https://tryjshell.org/](https://tryjshell.org/) to run the code for the first 25 steps. Or you can [Install Java 12+](https://github.com/amitsa/java-a-course-for-beginners/blob/master/00-02-java-eclipse-installation.md#installing-java). Here's the [troubleshooting section](https://github.com/amitsa/java-a-course-for-beginners/blob/master/00-02-java-eclipse-installation.md#troubleshooting) if you face problems.
 
 Launch up command prompt or Terminal.
 
@@ -147,11 +145,11 @@ Let type in ```java -version``` on the terminal and press enter.
 
 ```
 
-	in28minutes$>java -version
+	amitsa$>java -version
 	java version "x.0.1"
 	Java(TM) SE Runtime Environment (build x.0.1+11)
 	Java HotSpot(TM) 64-bit Server VM (build x.0.1+11, mixed mode)
-	in28minutes$>
+	amitsa$>
 
 ```
 
@@ -163,7 +161,7 @@ You can launch JShell by typing ```jshell``` at your terminal.
 
 ```java
 
-	in28minutes$>jshell
+	amitsa$>jshell
 
 	|  Welcome to JShell version x.0.1_
  	|  For an introduction type: /help intro_	
@@ -224,7 +222,7 @@ The ```/exit``` command terminates the ```JShell``` program, and we are back to 
 	jshell> /exit
 	|  Goodbye_
 	
-	in28minutes$>
+	amitsa$>
 
 ```
 
@@ -235,14 +233,14 @@ You can now effortlessly launch, feed code to, and exit from  ```JShell```!
 
 ```java
 
-	in28minutes$> jshell
+	amitsa$> jshell
 	
 	|  Welcome to JShell version 9.0.1_
 	|  For an introduction type: /help intro
 	jshell>** /exit
 	|  Goodbye
 	
-	in28minutes$>
+	amitsa$>
 
 ```
 
@@ -290,7 +288,7 @@ Let's start up jshell and type ```5 X 3```.
 
 ```java
 
-	in28minutes$> jshell
+	amitsa$> jshell
 
 	|  Welcome to JShell version x.0.1
 	|  For an introduction type: /help intro
@@ -2976,7 +2974,7 @@ The ```/save``` method takes a file name as a parameter. When run, it saves the 
 	jshell> /exit
 	| Goodbye
 
-in28minutes$>
+amitsa$>
 
 ```
 
@@ -3730,7 +3728,7 @@ The next course of action would be to compile this code (Stage 2). For that, exi
 ```cd``` to the folder where you have created the file `Planet.java`
 
 ```
-	in28minutes$> cd in28Minutes/git/JavaForBeginners/
+	amitsa$> cd amitsa/git/JavaForBeginners/
 	command-prompt> ls
 	Planet.java
 ```
@@ -4241,7 +4239,7 @@ When the following code (similar to the one given to JShell) is compiled manuall
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 	
 	public class RedefineTestRunner {
 		public static void main(String[] args) {
@@ -4266,7 +4264,7 @@ Let's have another look at where we have reached with our solution, to the *PMT-
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 	public class MultiplicationTable {
 		public static void print() {
 			for(int i=1; i<=10;i++) {
@@ -4281,7 +4279,7 @@ Let's have another look at where we have reached with our solution, to the *PMT-
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4441,7 +4439,7 @@ The full code:
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 	
 	public class MultiplicationTable {
 		public static void print() {
@@ -4470,7 +4468,7 @@ The full code:
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4493,7 +4491,7 @@ There is an issue with the code for ```class MultiplicationTable```. In the fina
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationTable {
 		public static void print() {
@@ -4618,7 +4616,7 @@ Let's now reorganize this part of the code.
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4710,7 +4708,7 @@ When we call a method inside another, the method call statement is replaced by i
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4791,7 +4789,7 @@ _6 * 20 = 120_
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4858,7 +4856,7 @@ _6 * 20 = 120_
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationTable {
 		public static void print() {
@@ -4884,7 +4882,7 @@ _6 * 20 = 120_
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 	
 	public class MultiplicationRunner {
 		public static void main(String[] args) {
@@ -4969,7 +4967,7 @@ Neat, isn't it! To make our program school kid friendly, we just need to change 
 
 ```java
 
-	package com.in28minutes.firstjavaproject;
+	package com.amitsa.firstjavaproject;
 
 	public class MultiplicationTable {
 		public static void print() {
@@ -5239,7 +5237,7 @@ We will start with two java files:
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 		public class MotorBike {
 		//behavior
 		void start() {
@@ -5253,7 +5251,7 @@ We will start with two java files:
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5357,7 +5355,7 @@ In the ```MotorBike``` example, if we need a ```speed``` attribute for each ```M
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		int speed;
@@ -5373,7 +5371,7 @@ In the ```MotorBike``` example, if we need a ```speed``` attribute for each ```M
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5445,7 +5443,7 @@ In other words, a member variable should not be directly accessible from methods
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 	
 	public class MotorBike {
 		private int speed;
@@ -5465,7 +5463,7 @@ In other words, a member variable should not be directly accessible from methods
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5527,7 +5525,7 @@ Encapsulation is needed to protect an object's state from direct access by other
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		//Same as before
@@ -5543,7 +5541,7 @@ Encapsulation is needed to protect an object's state from direct access by other
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5607,7 +5605,7 @@ What happens if a data element inside an object is not initialized with a value?
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5647,7 +5645,7 @@ Let's look at an example to understand Encapsulation better.
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		private int speed;
@@ -5671,7 +5669,7 @@ Let's look at an example to understand Encapsulation better.
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 
@@ -5703,7 +5701,7 @@ Let's see how to do that.
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 
@@ -5761,7 +5759,7 @@ Suppose at different points of time, we want to increase the speeds of both Hond
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5817,7 +5815,7 @@ Notice the repeated code within ```MotorBikeRunner```? The code for updating the
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		//Other code same as before
@@ -5832,7 +5830,7 @@ Notice the repeated code within ```MotorBikeRunner```? The code for updating the
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5883,7 +5881,7 @@ Let's now add a feature to ```MotorBike```, by which ```speed``` can be decrease
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		// Other methods same as before
@@ -5898,7 +5896,7 @@ Let's now add a feature to ```MotorBike```, by which ```speed``` can be decrease
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -5959,7 +5957,7 @@ On of the things you can observe again is ***Negative Speed Values***. Our valid
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 
@@ -6016,7 +6014,7 @@ How do we reduce duplication?
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		//Other methods same as before
@@ -6184,7 +6182,7 @@ Suppose our whim is that a Ducati bike starts with 100 mph, and a Honda with 200
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		private int speed;
@@ -6205,7 +6203,7 @@ Suppose our whim is that a Ducati bike starts with 100 mph, and a Honda with 200
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -6382,7 +6380,7 @@ Let's now try to create ```MotorBike``` instances with default initialization, j
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 
@@ -6400,7 +6398,7 @@ Let's now try to create ```MotorBike``` instances with default initialization, j
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -6430,7 +6428,7 @@ If you need the default constructor, you can explicitly add it.
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		//state
@@ -6454,7 +6452,7 @@ If you need the default constructor, you can explicitly add it.
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -6761,7 +6759,7 @@ In short, we must be able to write code like this in the ```main``` method of  o
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 	
 	public class BiNumber {
 		private int number1;
@@ -6808,7 +6806,7 @@ In short, we must be able to write code like this in the ```main``` method of  o
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 
 	public class BiNumberRunner {
 		public static void main(String[] args) {
@@ -7042,7 +7040,7 @@ In essence, write a ```SimpleInterestCalculator``` ```class``` that can be used 
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 	import java.math.BigDecimal;
 
 	public class SimpleInterestCalculatorRunner {
@@ -7059,7 +7057,7 @@ In essence, write a ```SimpleInterestCalculator``` ```class``` that can be used 
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 	import java.math.BigDecimal;
 
 	public class SimpleInterestCalculatorRunner {
@@ -7368,7 +7366,7 @@ In Essence, a runner ```class``` for ```MyChar``` would have its ```main``` meth
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 
 	public class MyCharRunner {
 		public static void main(String[] args) {
@@ -7383,7 +7381,7 @@ In Essence, a runner ```class``` for ```MyChar``` would have its ```main``` meth
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 	
 	public class MyChar {
 		private char ch;
@@ -7415,7 +7413,7 @@ _false_
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 
 	public class MyCharRunner {
 		public static void main(String[] args) {
@@ -7431,7 +7429,7 @@ _false_
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 
 	public class MyChar {
 		private char ch;
@@ -7474,7 +7472,7 @@ _false_
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 	
 	public class MyCharRunner {
 		public static void main(String[] args) {
@@ -7494,7 +7492,7 @@ _false_
 
 ```java
 
-	package com.in28minutes.primitive.datatypes;
+	package com.amitsa.primitive.datatypes;
 
 	public class MyChar {
 		private char ch;
@@ -7829,7 +7827,7 @@ In this example:
 
 ```java
 
-	com.in28minutes.ifstatement.examples;
+	com.amitsa.ifstatement.examples;
 
 	public class IfStatementRunner {
 		public static void main(String[] args) {
@@ -7857,7 +7855,7 @@ We would want to test a number for 3 conditions - `value is 24`, `value is 25` o
 
 ```java
 
-	com.in28minutes.ifstatement.examples;
+	com.amitsa.ifstatement.examples;
 
 	public class IfStatementRunner {
 		public static void main(String[] args) {
@@ -7919,7 +7917,7 @@ Let's see an example.
 
 ```java
 
-	com.in28minutes.ifstatement.examples;
+	com.amitsa.ifstatement.examples;
 
 	public class IfStatementRunner {
 		public static void main(String[] args) {
@@ -7952,7 +7950,7 @@ Let's now try giving ```i``` a different value, say ```24```.
 
 ```java
 
-	com.in28minutes.ifstatement.examples;
+	com.amitsa.ifstatement.examples;
 
 	public class IfStatementRunner {
 		public static void main(String[] args) {
@@ -7990,7 +7988,7 @@ Let's now try to get a match with the ```else``` clause, the only one unexplored
 
 ```java
 
-	com.in28minutes.ifstatement.examples;
+	com.amitsa.ifstatement.examples;
 
 	public class IfStatementRunner {
 		public static void main(String[] args) {
@@ -8215,7 +8213,7 @@ Java provides a built-in ```class``` named  ```Scanner```, to scan user input fr
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 	import java.util.Scanner;
 
 	public class MenuRunner {
@@ -8253,7 +8251,7 @@ The *Menu-Challenge* does not stop at a single user input. It requires a total o
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 	import java.util.Scanner;
 
 	public class MenuRunner {
@@ -8336,7 +8334,7 @@ The ```if```-```else```-```else if``` statement has a total of ```5``` clauses:
 
 ```java
 
-package com.in28minutes.ifstatement.examples;
+package com.amitsa.ifstatement.examples;
 import java.util.Scanner;
 
 public class MenuRunner {
@@ -8518,7 +8516,7 @@ Let's now refactor the `MenuScanner` example to use `switch` statement.
 
 ```java
 
-package com.in28minutes.ifstatement.examples;
+package com.amitsa.ifstatement.examples;
 import java.util.Scanner;
 
 public class MenuRunner {
@@ -8832,7 +8830,7 @@ First comes an example using the ```if```-```else if```-```else``` statement.
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 
 	public class OperatorChoiceRunner {
 		public static void main(String[] args) {
@@ -8847,7 +8845,7 @@ First comes an example using the ```if```-```else if```-```else``` statement.
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 
 	public class OperatorChoice {
 		private int number1;
@@ -8900,7 +8898,7 @@ Next in line, is an example involving a ```switch```.
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 
 	public class OperatorChoiceRunner {
 		public static void main(String[] args) {
@@ -8915,7 +8913,7 @@ Next in line, is an example involving a ```switch```.
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 
 	public class OperatorChoice {
 		private int number1;
@@ -8981,7 +8979,7 @@ In this step, we:
 
 ```java
 
-	package com.in28minutes.ifstatement.examples;
+	package com.amitsa.ifstatement.examples;
 
 	public class CalendarSwitchRunner {
 		public static void main(String[] args) {
@@ -9562,17 +9560,17 @@ The method ```concat()```joins the contents of two ```String``` objects into one
 
 ```java
 
-	jshell> String str = "in28Minutes";
-	str ==> "in28Minutes"
+	jshell> String str = "amitsa";
+	str ==> "amitsa"
 	jshell> str.concat(" is awesome")
-	$1 ==> "in28Minutes is awesome"
+	$1 ==> "amitsa is awesome"
 ```
 
 However, the original value referred by `str` remains unchanged. The `concat` method create a new `String` object.
 
 ```
 	jshell> str
-	str ==> "in28Minutes"
+	str ==> "amitsa"
 ```
 
 Just like ```concat()```, other ```String``` methods such as ```toUpperCase()```, ```toLowerCase()``` and ```trim()``` return new ```String``` objects.
@@ -9580,25 +9578,25 @@ Just like ```concat()```, other ```String``` methods such as ```toUpperCase()```
 ```java
 
 	jshell> String anotherString = str.concat(" is awesome");
-	anotherString ==> "in28Minutes is awesome"
+	anotherString ==> "amitsa is awesome"
 	jshell> str
-	str ==> "in28Minutes"
+	str ==> "amitsa"
 	jshell> String string2 = anotherString.concat(".");
-	string2 ==> "in28Minutes is awesome."
+	string2 ==> "amitsa is awesome."
 	jshell> str
-	str ==> "in28Minutes"
+	str ==> "amitsa"
 	jshell> anotherString
-	anotherString ==> "in28Minutes is awesome"
-	jshell> String s= "in28Minutes is awesome."
-	s ==> "in28Minutes is awesome."
+	anotherString ==> "amitsa is awesome"
+	jshell> String s= "amitsa is awesome."
+	s ==> "amitsa is awesome."
 	jshell> s.toUpperCase()
-	s ==> "IN28MINUTES IS AWESOME."
+	s ==> "amitsa IS AWESOME."
 	jshell> s.toLowerCase()"
-	s ==> "in28minutes is awesome."
-	jshell> String str2= "  in28Minutes is awesome    "
-	str2 ==> "  in28Minutes is awesome    "
+	s ==> "amitsa is awesome."
+	jshell> String str2= "  amitsa is awesome    "
+	str2 ==> "  amitsa is awesome    "
 	jshell> str2.trim()
-	str2 ==> "in28Minutes is awesome"
+	str2 ==> "amitsa is awesome"
 	jshell>
 
 ```
@@ -10366,12 +10364,12 @@ We can implement the aggregate ```list-of-marks``` as an array.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 
 	public class StudentRunner {
 		public static void main(String[] args) {
 			int[] marks = {99, 98, 100};
-			Student student = new Student("Ranga", marks);
+			Student student = new Student("Amit", marks);
 	
 			int number = student.getNumberOfmarks();		
 			System.out.println("Number of marks : " + number);	
@@ -10396,7 +10394,7 @@ We can implement the aggregate ```list-of-marks``` as an array.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 	import java.math.BigDecimal;
 
 	public class Student {
@@ -10521,7 +10519,7 @@ Let's add a few methods to the `Student` class to accept variable arguments.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 	import java.math.BigDecimal;
 
 	public class Student {
@@ -10577,7 +10575,7 @@ Let's add a few methods to the `Student` class to accept variable arguments.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 	public class StudentRunner {
 		public static void main(String[] args) {
 			//int[] marks = {99, 98, 100};
@@ -10675,7 +10673,7 @@ Here's how you can initialize a `String` array.
 
 ```java
 
-package com.in28minutes.arrays;
+package com.amitsa.arrays;
 
 public class StringRunner {
 
@@ -10887,7 +10885,7 @@ Let's now get to the ```Student``` challenge once again. Let's use an `ArrayList
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 
 	public class StudentRunner {
 		public static void main(String[] args) {
@@ -10914,7 +10912,7 @@ Let's now get to the ```Student``` challenge once again. Let's use an `ArrayList
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 	import java.math.BigDecimal;
 	import java.math.RoundingMode;
 	import java.util.ArrayList;
@@ -10973,7 +10971,7 @@ Let's now add the features to add and remove a student.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 
 	public class StudentRunner {
 		public static void main(String[] args) {
@@ -11005,7 +11003,7 @@ Let's now add the features to add and remove a student.
 
 ```java
 
-	package com.in28minutes.arrays;
+	package com.amitsa.arrays;
 	import java.math.BigDecimal;
 	import java.math.RoundingMode;
 	import java.util.ArrayList;
@@ -11107,7 +11105,7 @@ The methods ```setSpeed```, ```increaseSpeed``` and ```decreaseSpeed``` have an 
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBikeRunner {
 		public static void main(String[] args) {
@@ -11139,7 +11137,7 @@ The methods ```setSpeed```, ```increaseSpeed``` and ```decreaseSpeed``` have an 
 
 ```java
 
-	package com.in28minutes.oops;
+	package com.amitsa.oops;
 
 	public class MotorBike {
 		//state
@@ -11209,7 +11207,7 @@ Let's try to write a simple ```Fan``` ```class```, that covers all these aspects
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 	
 	public class Fan {
 		//state
@@ -11244,7 +11242,7 @@ Let's try to write a simple ```Fan``` ```class```, that covers all these aspects
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class FanRunner {
 		public static void main(String[] args) {
@@ -11275,7 +11273,7 @@ The other two state attributes, ```isOn``` and ```speed``` need to be exposed to
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class FanRunner {
 		public static void main(String[] args) {
@@ -11296,7 +11294,7 @@ The other two state attributes, ```isOn``` and ```speed``` need to be exposed to
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Fan {
 		//state
@@ -11387,7 +11385,7 @@ The best way to design a class is using an `Outside In` thought process:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class RectangleRunner {
 		public static void main(String[] args) {
@@ -11406,7 +11404,7 @@ The best way to design a class is using an `Outside In` thought process:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Rectangle {
 		//state:
@@ -11475,7 +11473,7 @@ Let's take a re-look at the state attributes of the ```Fan``` ```class```:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Fan {
 		//state
@@ -11499,7 +11497,7 @@ All member variables of 'Fan' class are primitive variables. Can we make it comp
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class CustomerRunner {
 		public static void main(String[] args) {
@@ -11513,7 +11511,7 @@ All member variables of 'Fan' class are primitive variables. Can we make it comp
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Address {
 		//state
@@ -11532,7 +11530,7 @@ All member variables of 'Fan' class are primitive variables. Can we make it comp
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Customer {
 		//state
@@ -11567,7 +11565,7 @@ Let's now add constructors to allow easy creation of these objects.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class CustomerRunner {
 		public static void main(String[] args) {
@@ -11584,7 +11582,7 @@ Let's now add constructors to allow easy creation of these objects.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Address {
 		//state
@@ -11610,7 +11608,7 @@ Let's now add constructors to allow easy creation of these objects.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Customer {
 		//state
@@ -11638,7 +11636,7 @@ Let's add methods to provide behavior.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class CustomerRunner {
 		public static void main(String[] args) {
@@ -11658,7 +11656,7 @@ Let's add methods to provide behavior.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Address {
 		//state
@@ -11688,7 +11686,7 @@ Let's add methods to provide behavior.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Customer {
 		//state
@@ -11767,7 +11765,7 @@ Write a program that manages Books and their Reviews:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class BookReviewRunner {
 		public static void main(String[] args) {
@@ -11784,7 +11782,7 @@ Write a program that manages Books and their Reviews:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Review {
 		private int id;
@@ -11808,7 +11806,7 @@ Write a program that manages Books and their Reviews:
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class Book {
 		private int id;
@@ -11846,7 +11844,7 @@ Let's look at two classes `Person` and `Student`.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 		private String name;
@@ -11884,7 +11882,7 @@ Let's look at two classes `Person` and `Student`.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class StudentWithoutInheritance {
 		private String name;
@@ -11975,7 +11973,7 @@ Let's now look at how we go about changing the ```Student``` ```class``` definit
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 		private String name;
@@ -12014,7 +12012,7 @@ Let's now look at how we go about changing the ```Student``` ```class``` definit
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Student extends Person {
 		private String collegeName;
@@ -12043,13 +12041,13 @@ Let's now look at how we go about changing the ```Student``` ```class``` definit
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	public class StudentRunner {
 		public static void main(String[] args)
 			Student student = new Student();
 			// < all setter() and getter() methods of Person and Student available >
 			student.setName("Ranga");			
-			student.setEmail("in28minutes@gmail.com");
+			student.setEmail("amitsa@gmail.com");
 		}
 	}
 
@@ -12069,7 +12067,7 @@ Let's take a look at the ```Person``` and ```Student``` classes.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 		private String name;
@@ -12108,7 +12106,7 @@ Let's take a look at the ```Person``` and ```Student``` classes.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Student extends Person {
 		private String collegeName;
@@ -12137,13 +12135,13 @@ Let's take a look at the ```Person``` and ```Student``` classes.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class StudentRunner {
 		public static void main(String[] args)
 			//Student student = new Student();
 			//student.setName("Ranga");
-			//student.setEmail("in28minutes@gmail.com");
+			//student.setEmail("amitsa@gmail.com");
 
 			Person person = new Person();
 			String personStr = person.toString();
@@ -12158,9 +12156,9 @@ Let's take a look at the ```Person``` and ```Student``` classes.
 
 **_Console Output_**
 
-_com.in28minutes.oops.level2.inheritance.Person@7a46a697_
+_com.amitsa.oops.level2.inheritance.Person@7a46a697_
 
-_com.in28minutes.oops.level2.inheritance.Person@7a46a697_
+_com.amitsa.oops.level2.inheritance.Person@7a46a697_
 
 ##### Snippet-01 Explained
 
@@ -12184,7 +12182,7 @@ You can also override super class method implementations in a sub class - **meth
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 		private String name;
@@ -12226,13 +12224,13 @@ You can also override super class method implementations in a sub class - **meth
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class PersonRunner {
 		public static void main(String[] args)
 			Person person = new Person();
 			person.setName("Ranga");
-			person.setEmail("in28minutes@gmail.com");
+			person.setEmail("amitsa@gmail.com");
 			person.setPhoneNumber("9898989898");
 			String personStr = person.toString();
 			System.out.println(personStr);
@@ -12244,9 +12242,9 @@ You can also override super class method implementations in a sub class - **meth
 
 **_Console Output_**
 
-_Person Ranga , Email : in28minutes@gmail.com, Phone Number : 9898989898_
+_Person Ranga , Email : amitsa@gmail.com, Phone Number : 9898989898_
 
-_Person Ranga , Email : in28minutes@gmail.com, Phone Number : 9898989898_
+_Person Ranga , Email : amitsa@gmail.com, Phone Number : 9898989898_
 
 ##### Snippet-01 Explained
 
@@ -12268,7 +12266,7 @@ Create a method toString() within Employee to print all state attribute values, 
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 		private String name;
@@ -12310,7 +12308,7 @@ Create a method toString() within Employee to print all state attribute values, 
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	import java.math.BigDecimal;
 
 	public class Employee extends Person {
@@ -12366,16 +12364,16 @@ Create a method toString() within Employee to print all state attribute values, 
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class EmployeeRunner {
 		public static void main(String[] args) {
 			Employee employee = new Employee();
 			employee.setName("Ranga");
-			employee.setEmail("in28minutes@gmail.com");
+			employee.setEmail("amitsa@gmail.com");
 			employee.setPhoneNumber("123-456-7890");
 			employee.setTitle("Programmer Analyst");
-			employee.setEmployerName("In28Minutes");
+			employee.setEmployerName("amitsa");
 			employee.setEmployeeGrade('A');
 			employee.setSalary(new BigDecimal("50000"));
 			System.out.println(employee);
@@ -12386,7 +12384,7 @@ Create a method toString() within Employee to print all state attribute values, 
 
 **_Console Output_**
 
-_Employee Title: Programmer Analyst, Employer: In28Minutes, Employee Grade: A, Salary: 50000.0000_
+_Employee Title: Programmer Analyst, Employer: amitsa, Employee Grade: A, Salary: 50000.0000_
 
 ##### Snippet-01 Explained
 
@@ -12402,7 +12400,7 @@ The ```super``` keyword allows an sub-class to access the attributes present in 
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	import java.math.BigDecimal;
 
 	public class Employee extends Person {
@@ -12425,16 +12423,16 @@ The ```super``` keyword allows an sub-class to access the attributes present in 
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	
 	public class EmployeeRunner {
 		public static void main(String[] args) {
 			Employee employee = new Employee();
 			employee.setName("Ranga");
-			employee.setEmail("in28minutes@gmail.com");
+			employee.setEmail("amitsa@gmail.com");
 			employee.setPhoneNumber("123-456-7890");
 			employee.setTitle("Programmer Analyst");
-			employee.setEmployerName("In28Minutes");
+			employee.setEmployerName("amitsa");
 			employee.setEmployeeGrade('A');		
 			employee.setSalary(new BigDecimal("50000"));
 			System.out.println(employee);
@@ -12445,7 +12443,7 @@ The ```super``` keyword allows an sub-class to access the attributes present in 
 
 **_Console Output_**
 
-_Employee Name: Ranga, Email: in28minutes@gmail.com, Phone Number: 123-456-7890, Title: Programmer Analyst, Employer: In28Minutes, Employee Grade: A, Salary: 50000.0000_
+_Employee Name: Ranga, Email: amitsa@gmail.com, Phone Number: 123-456-7890, Title: Programmer Analyst, Employer: amitsa, Employee Grade: A, Salary: 50000.0000_
 
 The ```super``` keyword allows an sub-class to access the attributes present in the super-class. Hence, we were able to invoke the getter methods of the ```Person``` object within the ```Employee``` object, like this within ```Employee.toString()```
 	* ```super.getName()```
@@ -12463,7 +12461,7 @@ What happens when a sub class object is created? Does the super class constructo
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Person {
 
@@ -12479,7 +12477,7 @@ What happens when a sub class object is created? Does the super class constructo
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	import java.math.BigDecimal;
 
 	public class Employee extends Person {
@@ -12497,7 +12495,7 @@ What happens when a sub class object is created? Does the super class constructo
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class EmployeeRunner {
 		public static void main(String[] args) {
@@ -12536,12 +12534,12 @@ Let's remove the no argument constructor and add a one argument constructor to `
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class PersonRunner {
 		public static void main(String[] args)
 			Person person = new Person("Ranga");
-			person.setEmail("in28minutes@gmail.com");
+			person.setEmail("amitsa@gmail.com");
 			person.setPhoneNumber("123-456-7890");
 			System.out.println(person);
 		}
@@ -12551,7 +12549,7 @@ Let's remove the no argument constructor and add a one argument constructor to `
 
 **_Console Output_**
 
-_Person Ranga , Email : in28minutes@gmail.com, Phone Number : 123-456-7890_
+_Person Ranga , Email : amitsa@gmail.com, Phone Number : 123-456-7890_
 
 ##### Snippet-03 Explained
 
@@ -12586,11 +12584,11 @@ The solution in this case would be to call the single-argument constructor ```Pe
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 	
 	public class EmployeeRunner {
 		public static void main(String[] args) {
-			Employee employee = new Employee("Ranga", "Programmer Analyst", "In28Minutes", 'A');
+			Employee employee = new Employee("Ranga", "Programmer Analyst", "amitsa", 'A');
 			System.out.println(employee);
 		}
 	}
@@ -12599,7 +12597,7 @@ The solution in this case would be to call the single-argument constructor ```Pe
 
 **_Console Output_**
 
-_Employee Name: Ranga, Email: null, Phone Number: null, Title: Programmer Analyst, Employer: In28Minutes, Employee Grade: A, Salary: null_
+_Employee Name: Ranga, Email: null, Phone Number: null, Title: Programmer Analyst, Employer: amitsa, Employee Grade: A, Salary: null_
 
 ##### Snippet-10 : EmployeeRunner complete
 
@@ -12609,12 +12607,12 @@ Let's provide setters to set the non mandatory attributes.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class EmployeeRunner {
 		public static void main(String[] args) {
-			Employee employee = new Employee("Ranga", "Programmer Analyst", "In28Minutes", 			'A');
-			employee.setEmail("in28minutes@gmail.com");
+			Employee employee = new Employee("Ranga", "Programmer Analyst", "amitsa", 			'A');
+			employee.setEmail("amitsa@gmail.com");
 			employee.setPhoneNumber("123-456-7890");
 			employee.setSalary(new BigDecimal("50000"));
 			System.out.println(employee);
@@ -12625,7 +12623,7 @@ Let's provide setters to set the non mandatory attributes.
 
 **_Console Output_**
 
-_Employee Name: Ranga, Email: in28minutes@gmail.com, Phone Number: 123-456-7890, Title: Programmer Analyst, Employer: In28Minutes, Employee Grade: A, Salary: 50000.0000_
+_Employee Name: Ranga, Email: amitsa@gmail.com, Phone Number: 123-456-7890, Title: Programmer Analyst, Employer: amitsa, Employee Grade: A, Salary: 50000.0000_
 
 
 ##### Snippet-10: ```Student``` updated
@@ -12636,7 +12634,7 @@ Let's add a two argument construtor to the `Student` class.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class Student extends Person {
 		private String collegeName;
@@ -12670,7 +12668,7 @@ Let's add a two argument construtor to the `Student` class.
 
 ```java
 
-	package com.in28minutes.oops.level2.inheritance;
+	package com.amitsa.oops.level2.inheritance;
 
 	public class StudentRunner {
 		public static void main(String[] args)
@@ -12923,7 +12921,7 @@ Let's use abstract class to build the recipe.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public abstract class AbstractRecipe {
 		public void execute() {
@@ -12947,7 +12945,7 @@ You can define implementations implementing the abstract methods.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class CurryRecipe extends AbstractRecipe {
 		public CurryRecipe() {
@@ -12980,7 +12978,7 @@ You can define implementations implementing the abstract methods.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class RecipeRunner {
 		public static void main(String[] args) {
@@ -13021,7 +13019,7 @@ We can easily create more recipes.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 	
 	public class MicrowaveCurryRecipe extends AbstractRecipe {
 		public MicrowaveCurryRecipe() {
@@ -13053,7 +13051,7 @@ We can easily create more recipes.
 
 ```java
 
-	package com.in28minutes.oops.level2;
+	package com.amitsa.oops.level2;
 
 	public class RecipeRunner {
 		public static void main(String[] args) {
@@ -13160,7 +13158,7 @@ How do you represent this in Java program?
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public interface GamingConsole {
 		public void up();
@@ -13182,7 +13180,7 @@ Welcome `MarioGame`.
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class MarioGame implements GamingConsole {
 		@Override
@@ -13215,7 +13213,7 @@ Let's look at how you can run these games.
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class GameRunner {
 		public static void main(String[] args) {
@@ -13250,7 +13248,7 @@ Let's look at another example - `ChessGame`.
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class ChessGame implements GamingConsole {
 
@@ -13283,7 +13281,7 @@ Running it is simple. All that you need to do is to comment out `MarioGame game 
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class GameRunner {
 		public static void main(String[] args) {
@@ -13322,7 +13320,7 @@ Let's try this -  `GamingConsole game = new ChessGame();`
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class GameRunner {
 		public static void main(String[] args) {
@@ -13359,7 +13357,7 @@ Let's look at the next example:
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class GameRunner {
 		public static void main(String[] args) {
@@ -13401,7 +13399,7 @@ They start with defining an interface.
 
 ```java
   
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public interface ComplexAlgorithm {
 		int complexAlgorithm(int number1, int number2);
@@ -13415,7 +13413,7 @@ Now the teams can go on their merry way. Team A can create a stub for the interf
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class OneComplexAlgorithm {
 		public int complexAlgorithm(int number1, int number2) {
@@ -13431,7 +13429,7 @@ Team B can take time to implement the actual algorithm.
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 
 	public class ActualComplexAlgorithm {
 		public int complexAlgorithm(int number1, int number2) {
@@ -13637,7 +13635,7 @@ Recall the following example: `ComplexAlgorithm` defines the interface which hel
 
 ```java
 
-	package com.in28minutes.oops.level2.interfaces;
+	package com.amitsa.oops.level2.interfaces;
 	public interface ComplexAlgorithm {
 		int complexAlgorithm(int number1, int number2);
 	}
@@ -14950,8 +14948,8 @@ Let's look at a scenario where want to write a wrapper class around the ```Array
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 	
 	public class GenericsRunner {
 		public static void main(String[] args) {
@@ -14969,7 +14967,7 @@ Let's look at a scenario where want to write a wrapper class around the ```Array
 
 ```java
 
-	package com.in28minutes.generics;
+	package com.amitsa.generics;
 
 	public class MyCustomList {
 		ArrayList<String> list = new ArrayList<>();
@@ -14999,7 +14997,7 @@ Let's look at an example:
 
 ```java
 
-	package com.in28minutes.generics;
+	package com.amitsa.generics;
 	
 	public class MyCustomList<T> {
 		ArrayList<T> list = new ArrayList<>();
@@ -15023,8 +15021,8 @@ Let's look at an example:
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		public static void main(String[] args) {
@@ -15068,7 +15066,7 @@ At the time of actual instantiation of ```MyCustomList``` inside ```GenericsRunn
 
 ```java
 
-	package com.in28minutes.generics;
+	package com.amitsa.generics;
 
 	public class MyCustomList<T> {
 		ArrayList<T> list = new ArrayList<>();
@@ -15096,8 +15094,8 @@ At the time of actual instantiation of ```MyCustomList``` inside ```GenericsRunn
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		public static void main(String[] args) {
@@ -15141,7 +15139,7 @@ What if we wanted to to use ```MyCustomList<T>``` purely for storing numeric val
 
 ```java
 
-	package com.in28minutes.generics;
+	package com.amitsa.generics;
 
 	public class MyCustomList<T extends Number> {
 		ArrayList<T> list = new ArrayList<>();
@@ -15169,8 +15167,8 @@ What if we wanted to to use ```MyCustomList<T>``` purely for storing numeric val
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		public static void main(String[] args) {
@@ -15208,8 +15206,8 @@ We can create generic methods as well. Let's look at a few examples:
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		static <X> X doSomething(X value) {
@@ -15250,8 +15248,8 @@ You can use wild card with generics too - `? extends Number`
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		static double sumOfNumberList(List<? extends Number> numbers) {
@@ -15295,8 +15293,8 @@ The generic wildcard we saw in the previous section is referred to as a **Upper-
 
 ```java
 
-	package com.in28minutes.generics;
-	import com.in28minutes.generics.MyCustomList;
+	package com.amitsa.generics;
+	import com.amitsa.generics.MyCustomList;
 
 	public class GenericsRunner {
 		static void addAFewNumbers(List<? super Number> numbers) {
@@ -15340,7 +15338,7 @@ Let's look at a typical program to loop around a list and print its content.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FunctionalProgrammingRunner {
@@ -15378,7 +15376,7 @@ Functional Programming allows us to focus on the **what**.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FunctionalProgrammingRunner {
@@ -15455,7 +15453,7 @@ A ```Stream``` is a sequence of values. The ```filter()``` method can be used to
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FunctionalProgrammingRunner {
@@ -15535,7 +15533,7 @@ Let's look at how to use `reduce` method to calculation the sum.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FPNumberRunner {
@@ -15581,7 +15579,7 @@ The ```reduce()``` method acts on a pair of elements at a time. The *initial-val
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FPNumberRunner {
@@ -15702,7 +15700,7 @@ Why take our word for all this? Let's put this code into an IDE, and then run it
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class FPNumberRunner {
@@ -15824,7 +15822,7 @@ In this step, let's check them out one by one.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	public class FPNumberRunner {
 		public static void printFPSquares() {
 			IntStream.range(1, 11).
@@ -15977,7 +15975,7 @@ Using ```min()``` is similar to ```max()```.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 
 	public class FPNumberRunner {
 		public static void main(String[] args) {
@@ -16073,7 +16071,7 @@ The following code takes a behind-the-scenes look at ```filter()```.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class LambdaBehindTheScenesRunner {
@@ -16124,7 +16122,7 @@ Instead of `num -> num%2 == 0`, let's implement a `EvenNumberPredicate`.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 	import java.util.function.Predicate;
 
@@ -16189,7 +16187,7 @@ Let's implement a `SysOutConsumer`.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 	import java.util.stream.Stream;
 	import java.util.function.Consumer;
@@ -16251,7 +16249,7 @@ Let's now look at what happens behind the scenes, for the stream operation ```ma
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 	import java.util.stream.Stream;
 	import java.util.function.Consumer;
@@ -16320,7 +16318,7 @@ Let's implement a `NumberSquareMapper`.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;	
+	package com.amitsa.functionalprogramming;	
 	import java.util.List;
 	import java.util.stream.Stream;
 	import java.util.function.Consumer;
@@ -16391,7 +16389,7 @@ Let's look at an example.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class MethodReferencesRunner {
@@ -16426,7 +16424,7 @@ Method references make it easy to create lambda expressions.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class MethodReferencesRunner {
@@ -16453,7 +16451,7 @@ Let's define a static method `print` and use it using a method reference.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class MethodReferencesRunner {
@@ -16484,7 +16482,7 @@ On a `String`, `String::length` is the same as `s -> s.length()`.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class MethodReferencesRunner {
@@ -16515,7 +16513,7 @@ On a `String`, `String::length` is the same as `s -> s.length()`.
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 
 	public class MethodReferencesRunner {
@@ -16588,7 +16586,7 @@ int max = List.of(23, 45, 67, 34).stream()
 
 ```java
 
-	package com.in28minutes.functionalprogramming;
+	package com.amitsa.functionalprogramming;
 	import java.util.List;
 	import java.util.function.Predicate;
 
@@ -17398,8 +17396,8 @@ The next example tells you how to implement ```Callable<T>```, and use it with `
 	public class CallableRunner {
 		public static void main(String[] args) throws InterruptedException, ExecutionException {
 			ExecutorService executorService = Executors.newFixedThreadPool(1);
-			Future<String> welcomeFuture = executorService.submit(new CallableTask("in28Minutes"));
-			System.out.println("CallableTask in28Minutes Submitted");
+			Future<String> welcomeFuture = executorService.submit(new CallableTask("amitsa"));
+			System.out.println("CallableTask amitsa Submitted");
 			String welcomeMessage = welcomeFuture.get();
 			System.out.println(welcomeMessage);
 			executorService.shutdown();
@@ -17410,9 +17408,9 @@ The next example tells you how to implement ```Callable<T>```, and use it with `
 
 **_Console Output_**
 
-_CallableTask in28Minutes Submitted_
+_CallableTask amitsa Submitted_
 
-_Hello in28Minutes_
+_Hello amitsa_
 
 ##### Snippet-01 Explained
 
@@ -17461,7 +17459,7 @@ In this step, we:
 	public class MultipleCallableRunner {
 		public static void main(String[] args) throws InterruptedException, ExecutionException {
 			ExecutorService executorService = Executors.newFixedThreadPool(1);
-			List<CallableTask> tasks = List.of(new CallableTask("in28Minutes"),
+			List<CallableTask> tasks = List.of(new CallableTask("amitsa"),
 												new CallableTask("Ranga"),
 												new CallableTask("Adam"));
 			List<Future<String>> welcomeAll = executorService.invokeAll(tasks);
@@ -17476,7 +17474,7 @@ In this step, we:
 
 **_Console Output_**
 
-_Hello in28Minutes_
+_Hello amitsa_
 
 _Hello Ranga_
 
@@ -17499,7 +17497,7 @@ Let's now see what scenario would pan out with a larger thread pool size.
 	public class MultipleCallableRunner {
 		public static void main(String[] args) throws InterruptedException, ExecutionException {
 			ExecutorService executorService = Executors.newFixedThreadPool(3);
-			List<CallableTask> tasks = List.of(new CallableTask("in28Minutes"),
+			List<CallableTask> tasks = List.of(new CallableTask("amitsa"),
 												new CallableTask("Ranga"),
 												new CallableTask("Adam"));
 			List<Future<String>> welcomeAll = executorService.invokeAll(tasks);
@@ -17514,7 +17512,7 @@ Let's now see what scenario would pan out with a larger thread pool size.
 
 **_Console Output_**
 
-_Hello in28Minutes_
+_Hello amitsa_
 
 _Hello Ranga_
 
@@ -17545,7 +17543,7 @@ Let's look at how you can wait for any of the three tasks to complete.
 	public class MultipleAnyCallableRunner {
 		public static void main(String[] args) throws InterruptedException, ExecutionException {
 			ExecutorService executorService = Executors.newFixedThreadPool(3);
-			List<CallableTask> tasks = List.of(new CallableTask("in28Minutes"),
+			List<CallableTask> tasks = List.of(new CallableTask("amitsa"),
 												new CallableTask("Ranga"),
 												new CallableTask("Adam"));
 			String welcomeMessage = executorService.invokeAny(tasks);
@@ -17562,7 +17560,7 @@ _Hello Ranga_
 
 **_Console Output_**
 
-_Hello in28Minutes_
+_Hello amitsa_
 
 **_Console Output_**
 
@@ -17620,7 +17618,7 @@ Want to see a live example of the Java run-time throwing an exception? The next 
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	
 	public class ExceptionHandlingRunner {
 		public static void main(String[] args) {
@@ -17643,9 +17641,9 @@ Want to see a live example of the Java run-time throwing an exception? The next 
 
 _Exception in thread "main" java.lang.NullPointerException_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.callMethod (ExceptionHandlingRunner.java:8)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.callMethod (ExceptionHandlingRunner.java:8)_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
 
 
 ##### Snippet-01 Explained
@@ -17713,7 +17711,7 @@ In Java, exception handling is achieved through a **```try```-```catch```** *blo
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	
 	public class ExceptionHandlingRunner {
 		public static void main(String[] args) {
@@ -17774,7 +17772,7 @@ Let's add `ex.printStackTrace();`.
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	public class ExceptionHandlingRunner {
 		public static void main(String[] args) {
@@ -17806,11 +17804,11 @@ Let's add `ex.printStackTrace();`.
 
 _Exception in thread "main" java.lang.NullPointerException_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.method2 (ExceptionHandlingRunner.java:14)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.method2 (ExceptionHandlingRunner.java:14)_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.method1 (ExceptionHandlingRunner.java:8)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.method1 (ExceptionHandlingRunner.java:8)_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
 
 _method1() Done_
 
@@ -17850,7 +17848,7 @@ Let's add an additional catch for `NullPointerException` in method2.
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	
 	public class ExceptionHandlingRunner {
 		public static void main(String[] args) {
@@ -17899,7 +17897,7 @@ You need to order the ```catch``` blocks after a ```try```, from more-specific t
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	public class ExceptionHandlingRunner {
 		public static void main(String[] args) {
@@ -17933,11 +17931,11 @@ You need to order the ```catch``` blocks after a ```try```, from more-specific t
 
 _Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.method2 (ExceptionHandlingRunner.java:14)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.method2 (ExceptionHandlingRunner.java:14)_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.method1 (ExceptionHandlingRunner.java:8)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.method1 (ExceptionHandlingRunner.java:8)_
 
-_at com.in28minutes.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
+_at com.amitsa.exceptionhandling.ExceptionHandlingRunner.main (ExceptionHandlingRunner.java:4)_
 
 _method1() Done_
 
@@ -17970,7 +17968,7 @@ When an exception occurs, the programmer's world can turn upside-down in a matte
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	import java.util.Scanner;
 
 	public class FinallyRunner {
@@ -17989,7 +17987,7 @@ When an exception occurs, the programmer's world can turn upside-down in a matte
 
 _Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException_
 
-_at com.in28minutes.exceptionhandling.FinallyRunner.main (FinallyRunner.java:8)_
+_at com.amitsa.exceptionhandling.FinallyRunner.main (FinallyRunner.java:8)_
 
 ##### Snippet-01 Explained
 
@@ -18007,7 +18005,7 @@ It's important to ensure that any acquired resource is always released; whether 
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	import java.util.Scanner;
 
 	public class FinallyRunner {
@@ -18038,7 +18036,7 @@ It's important to ensure that any acquired resource is always released; whether 
 
 _Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException_
 
-_at com.in28minutes.exceptionhandling.FinallyRunner.main (FinallyRunner.java:10)_
+_at com.amitsa.exceptionhandling.FinallyRunner.main (FinallyRunner.java:10)_
 
 _Before scanner close_
 
@@ -18160,7 +18158,7 @@ Sometimes, in Java you are forced to handle exceptions.
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	
 	public class CheckedExceptionRunner {
 		public static void main(String[] args) {
@@ -18198,7 +18196,7 @@ Let's use ```try```-```catch``` block to start off.
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	public class CheckedExceptionRunner {
 		public static void main(String[] args) {
@@ -18224,7 +18222,7 @@ Let's use ```try```-```catch``` block to start off.
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	public class CheckedExceptionRunner {
 		public static void main(String[] args) {
@@ -18311,7 +18309,7 @@ So far, we have seen how to handle an exception, that is thrown by a built-in Ja
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	class Amounts {
 		private String currency;
@@ -18351,7 +18349,7 @@ So far, we have seen how to handle an exception, that is thrown by a built-in Ja
 
 _Exception in thread "main" java.lang.RuntimeException:Currencies Don't Match_
 
-_at com.in28minutes.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
+_at com.amitsa.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
 
 ##### Snippet-01 Explained
 
@@ -18367,7 +18365,7 @@ This thrown exception object can be handled inside ```main()```. By calling ```p
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	
 	class Amounts {
 		private String currency;
@@ -18413,7 +18411,7 @@ This thrown exception object can be handled inside ```main()```. By calling ```p
 
 _Exception in thread "main" java.lang.RuntimeException:Currencies Don't Match_
 
-_at com.in28minutes.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
+_at com.amitsa.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
 
 ```Exception``` is not a ```RuntimeException``` or one of its sub-classes, it is a checked exception. So, it needs to be declared when it is thrown - `public void add(Amount that) throws Exception`. 
 
@@ -18436,7 +18434,7 @@ It is also possible for you to throw a custom exception. You can do this by defi
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 
 	class CurrenciesDoNotMatchException extends Exception {
 		public CurrenciesDoNotMatchException(String msg) {
@@ -18484,11 +18482,11 @@ It is also possible for you to throw a custom exception. You can do this by defi
 
 **_Console Output_**
 
-**_com.in28minutes.exceptionhandling.CurrenciesDoNotMatchException : Currencies Don't Match : USD & EUR_**
+**_com.amitsa.exceptionhandling.CurrenciesDoNotMatchException : Currencies Don't Match : USD & EUR_**
 
-_Exception in thread "main" com.in28minutes.exceptionhandling.CurrenciesDoNotMatchException : Currencies Don't Match : USD & EUR_
+_Exception in thread "main" com.amitsa.exceptionhandling.CurrenciesDoNotMatchException : Currencies Don't Match : USD & EUR_
 
-_at com.in28minutes.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
+_at com.amitsa.exceptionhandling.ThrowingExceptionRunner.main (ThrowingExceptionRunner.java:26)_
 
 ##### Snippet-01 Explained
 
@@ -18512,7 +18510,7 @@ In this step, we:
 
 ```java
 
-	package com.in28minutes.exceptionhandling;
+	package com.amitsa.exceptionhandling;
 	import java.util.Scanner;
 
 	public class TryWithResourcesRunner {
@@ -18641,7 +18639,7 @@ The ```java.nio.file``` system package has a bunch of utility ```class```es and 
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -18692,7 +18690,7 @@ We can specify level 2 in `Files.walk(currentDirectory, 2)`. So, folders until l
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Path;
 	import java.nio.file.Paths;
@@ -18733,7 +18731,7 @@ _./src/files_
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;	
 	import java.nio.file.Path;
 	import java.nio.file.Paths;
@@ -18778,7 +18776,7 @@ We use a predicate `Files.walk(currentDirectory, 4).filter(predicate)` to filter
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Path;
 	import java.nio.file.Paths;
@@ -18812,7 +18810,7 @@ We can use a matcher - `Files.find(currentDirectory, 4, matcher)` which is confi
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Path;
 	import java.nio.file.Paths;
@@ -18846,7 +18844,7 @@ _./src/files/DirectoryScanRunner.java_
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Path;
 	import java.nio.file.Paths;
@@ -18902,7 +18900,7 @@ We are making use of a matcher checking `attributes.isDirectory()`.
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -18943,7 +18941,7 @@ _[123.122, asdfghjkl, Apple, Bat, Cat]_
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -18995,7 +18993,7 @@ Cat
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -19033,7 +19031,7 @@ You can also filter file content using the `filter` method.
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -19071,7 +19069,7 @@ _cat_
 
 ```java
 
-	package com.in28minutes.files;
+	package com.amitsa.files;
 	import java.nio.file.Files;
 	import java.nio.file.Paths;
 	import java.io.IOException;
@@ -19110,7 +19108,7 @@ Let's create a simple counter.
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 
 	public class Counter {
 		private int i = 0;
@@ -19130,7 +19128,7 @@ Let's create a simple counter.
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 
 	public class ConcurrencyRunner {
 		public static void main(String[] args) {
@@ -19201,7 +19199,7 @@ Adding the keyword ```synchronized``` to the signature of a ```class``` method m
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 
 	public class Counter {
 		private int i = 0;
@@ -19229,7 +19227,7 @@ After adding `synchronized` keyword to the method `increment`, only one thread w
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 
 	public class BiCounter {
 		private int i = 0;
@@ -19258,7 +19256,7 @@ After adding `synchronized` keyword to the method `increment`, only one thread w
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 
 	public class ConcurrencyRunner {
 		public static void main(String[] args) {
@@ -19289,7 +19287,7 @@ Let's look at another synchronization option - `Locks`
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 	import java.util.concurrent.locks.ReentrantLock;
 
 	public class BiCounterWithLocks {
@@ -19343,7 +19341,7 @@ Java addresses this issue for basic data types, by providing a few classes that 
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 	import java.util.concurrent.atomic.AtomicInteger;
 
 	public class BiCounterWithAtomicInteger {
@@ -19394,7 +19392,7 @@ The code within the ```for``` loop does a `get` and then a `put`. It is not thre
 
 ```java
 
-	package com.in28minutes.collections;
+	package com.amitsa.collections;
 	import java.util.HashMap;
 
 	public class MapRunner {
@@ -19439,7 +19437,7 @@ V computeIfPresent(K key,
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 	import java.util.Map;
 	import java.util.HashTable;
 	import java.util.concurrent.atomic.LongAdder;
@@ -19474,7 +19472,7 @@ We can use the method ```computeIfAbsent()``` from the ```collection``` ```Concu
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 	import java.util.concurrent.ConcurrentMap;
 	import java.util.concurrent.ConcurrentHashMap;
 	import java.util.concurrent.atomic.LongAdder;
@@ -19524,7 +19522,7 @@ Copy on Write collections are typically used in Subject – Observer scenarios, 
 
 ```java
 
-	package com.in28minutes.concurrency;
+	package com.amitsa.concurrency;
 	import java.util.List;
 	import java.util.concurrent.CopyOnWriteArrayList;
 
