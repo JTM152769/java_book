@@ -47,6 +47,9 @@ public class SimpleJavaRunner {
     }
 }
 ```
+##### Example-1 Explained
+Simple sequential java program at first Runner1 startRunning method gets executed and then Runner2.
+
 **_Console Output_**
 <br>
 /home/amitsah/opt/jdk-11.0.1/bin/java -javaagent:/home/amitsah/opt/idea-IC-183.5912.21/lib/idea_rt.jar=37649:/home/amitsah/opt/idea-IC-183.5912.21/bin -Dfile.encoding=UTF-8 -classpath /home/amitsah/coding_2019/out/production/coding_2019 com.amitsa.Multithreading.SimplejavaRunner.SimpleJavaRunner
@@ -78,31 +81,31 @@ Process finished with exit code 0
 **_ThreadBasicsRunner.java_**
 
 ```java
-
-	public class ThreadBasicsRunner {
-		public static void main(String[] args) {
-			//Task1
-			for(int i=101; i<=199; i++) {
-				System.out.print(i + " ");
-			}
-			System.out.println("\n Task1 Done");
-
-			//Task2
-			for(int i=201; i<=299; i++) {
-				System.out.print(i + " ");
-			}
-	
-			System.out.println("\n Task2 Done");
-			//Task3
-			for(int i=301; i<=399; i++) {
-				System.out.print(i + " ");			
-			}
-			System.out.println("\n Task3 Done");
-
-			System.out.println("Main Done");
+package com.amitsa.Multithreading.ThreadBasicsRunner
+public class ThreadBasicsRunner {
+	public static void main(String[] args) {
+		//Task1
+		for(int i=101; i<=199; i++) {
+			System.out.print(i + " ");
 		}
-	}
+		System.out.println("\n Task1 Done");
 
+		//Task2
+		for(int i=201; i<=299; i++) {
+			System.out.print(i + " ");
+		}
+	
+		System.out.println("\n Task2 Done");
+		//Task3
+		for(int i=301; i<=399; i++) {
+			System.out.print(i + " ");			
+		}
+		System.out.println("\n Task3 Done");
+
+		System.out.println("Main Done");
+	}
+}
+	
 ```
 
 **_Console Output_**
@@ -121,7 +124,7 @@ _Task3 Done_
 
 _Main Done_
 
-##### Snippet-1 Explained
+##### Example-2 Explained
 
 As you can see, the execution of all three ```for``` loops (that really are independent tasks) is sequential. This is how all our code so far has been running!
 
