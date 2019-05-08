@@ -16677,7 +16677,67 @@ The concept of **concurrency** in programming is very similar to what an ant col
 
 In Java, you can run tasks in parallel using threads.  Let's first write a simple program.
 
-##### Snippet-1
+##### Example-1
+**SimpleJavaRunner.java_**
+
+```java
+package com.amitsa.Multithreading.SimplejavaRunner;
+
+class Runner1 {
+
+    public void startRunning() {
+        for(int i=0;i<10;++i)
+            System.out.println("Runner1: "+i);
+    }
+}
+
+class Runner2 {
+
+    public void startRunning() {
+        for(int i=0;i<10;++i)
+            System.out.println("Runner2: "+i);
+    }
+}
+
+public class SimpleJavaRunner {
+
+    public static void main(String[] args) {
+
+        Runner1 runner1 = new Runner1();
+        Runner2 runner2 = new Runner2();
+
+        runner1.startRunning();
+        runner2.startRunning();
+
+    }
+}
+```
+**_Console Output_**
+_/home/amitsah/opt/jdk-11.0.1/bin/java -javaagent:/home/amitsah/opt/idea-IC-183.5912.21/lib/idea_rt.jar=37649:/home/amitsah/opt/idea-IC-183.5912.21/bin -Dfile.encoding=UTF-8 -classpath /home/amitsah/coding_2019/out/production/coding_2019 com.amitsa.Multithreading.SimplejavaRunner.SimpleJavaRunner
+Runner1: 0
+Runner1: 1
+Runner1: 2
+Runner1: 3
+Runner1: 4
+Runner1: 5
+Runner1: 6
+Runner1: 7
+Runner1: 8
+Runner1: 9
+Runner2: 0
+Runner2: 1
+Runner2: 2
+Runner2: 3
+Runner2: 4
+Runner2: 5
+Runner2: 6
+Runner2: 7
+Runner2: 8
+Runner2: 9
+
+Process finished with exit code 0_
+
+##### Example-2
 
 **_ThreadBasicsRunner.java_**
 
