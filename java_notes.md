@@ -18,7 +18,7 @@ In Java, you can run tasks in parallel using threads.  Let's first write a simpl
 ```java
 package com.amitsa.Multithreading.SimplejavaRunner;
 
-class Runner1 {
+public class Runner1 {
 
     public void startRunning() {
         for(int i=0;i<10;++i)
@@ -26,7 +26,7 @@ class Runner1 {
     }
 }
 
-class Runner2 {
+public class Runner2 {
 
     public void startRunning() {
         for(int i=0;i<10;++i)
@@ -83,6 +83,7 @@ Process finished with exit code 0
 ```java
 package com.amitsa.Multithreading.ThreadBasicsRunner
 public class ThreadBasicsRunner {
+
 	public static void main(String[] args) {
 		//Task1
 		for(int i=101; i<=199; i++) {
