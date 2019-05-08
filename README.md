@@ -16713,7 +16713,8 @@ public class SimpleJavaRunner {
 }
 ```
 **_Console Output_**
-_/home/amitsah/opt/jdk-11.0.1/bin/java -javaagent:/home/amitsah/opt/idea-IC-183.5912.21/lib/idea_rt.jar=37649:/home/amitsah/opt/idea-IC-183.5912.21/bin -Dfile.encoding=UTF-8 -classpath /home/amitsah/coding_2019/out/production/coding_2019 com.amitsa.Multithreading.SimplejavaRunner.SimpleJavaRunner
+<br>
+/home/amitsah/opt/jdk-11.0.1/bin/java -javaagent:/home/amitsah/opt/idea-IC-183.5912.21/lib/idea_rt.jar=37649:/home/amitsah/opt/idea-IC-183.5912.21/bin -Dfile.encoding=UTF-8 -classpath /home/amitsah/coding_2019/out/production/coding_2019 com.amitsa.Multithreading.SimplejavaRunner.SimpleJavaRunner
 Runner1: 0
 Runner1: 1
 Runner1: 2
@@ -16735,8 +16736,8 @@ Runner2: 7
 Runner2: 8
 Runner2: 9
 
-Process finished with exit code 0_
-
+Process finished with exit code 0
+<br>
 ##### Example-2
 
 **_ThreadBasicsRunner.java_**
